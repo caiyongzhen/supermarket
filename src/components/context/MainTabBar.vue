@@ -1,22 +1,22 @@
 <template>
      <div>
          <tab-bar>
-      <tab-bar-item path="/home" activeColor='blue'>
+      <tab-bar-item path="/home" activeColor='red'>
         <img  slot='img-icon' src="~assets/img/tabbar/icon_home@3x.png" alt="">
         <img  slot='img-active' src="~assets/img/tabbar/icon_home_active@3x.png" alt="">
         <div slot="img-txt">首页</div>
       </tab-bar-item>
-      <tab-bar-item path="/category" activeColor='blue'>
+      <tab-bar-item path="/category" activeColor='red'>
         <img  slot='img-icon' src="~assets/img/tabbar/icon_category@3x.png" alt="">
         <img  slot='img-active' src="~assets/img/tabbar/icon_category_active@3x.png" alt="">
         <div slot="img-txt">分类</div>
       </tab-bar-item>
-      <tab-bar-item path="/cart" activeColor='blue'>
+      <tab-bar-item path="/cart" activeColor='red'>
         <img  slot='img-icon' src="~assets/img/tabbar/icon_cart@3x.png" alt="">
         <img  slot='img-active' src="~assets/img/tabbar/icon_cart_active@3x.png" alt="">
         <div slot="img-txt">购物车</div>
       </tab-bar-item>
-      <tab-bar-item path="profil" activeColor='blue'>
+      <tab-bar-item path="profil" activeColor='red'>
         <img  slot='img-icon' src="~assets/img/tabbar/icon_me@3x.png" alt="">
         <img  slot='img-active' src="~assets/img/tabbar/icon_me_active@3x.png" alt="">
         <div slot="img-txt">我的</div>
@@ -25,8 +25,8 @@
   </div>
 </template>
 <script>
-import TabBar from './TabBar'
-import TabBarItem from './TabBarItem'
+import TabBar from '@/components/common/TabBar/TabBar'
+import TabBarItem from '@/components/common/TabBar/TabBarItem'
 
     export default {
         name:'MainTabBar',
@@ -34,7 +34,7 @@ import TabBarItem from './TabBarItem'
             TabBar,
             TabBarItem
         }
-        
+
 
 
 
@@ -47,7 +47,7 @@ import TabBarItem from './TabBarItem'
 <style>
 
 
- 
+
 
 
 
